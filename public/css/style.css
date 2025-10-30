@@ -56,6 +56,15 @@ body {
     padding: 2rem;
 }
 
+.source-text {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 2rem;
+    font-style: italic;
+}
+
 .quote-text::before {
     content: open-quote;
     font-size: 3rem;
