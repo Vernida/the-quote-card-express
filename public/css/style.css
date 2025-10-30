@@ -14,6 +14,10 @@ body {
     flex: 1;
 }
 
+/* I know that if you're not connected to the API this is the background image that will load with the quote.
+However once it's pulling the images during each refresh it shows this image for a second between.
+I tested commenting it out and it worked to make it not show, but I doubt that's the full solution...? */
+
 .background-img {
     background-image: url("../img/toa-heftiba-pPMk4Ma195U-unsplash.jpg");
     background-size: cover;
